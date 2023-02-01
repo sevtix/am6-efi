@@ -1,7 +1,7 @@
-# AM6 2 Stroke throttle body fuel injection
+# AM6 2 stroke throttle body fuel injection
 TunerStudio tuning files
 
-AM6 2 stroke fuel injection
+AM6 2 stroke throttle body fuel injection
 throttle body injection
 microsquirt-v3 & ms2extra firmware
 150cc/min single injector
