@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &#10;" writeDate="Wed Feb 01 19:54:39 CET 2023"/>
+<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &#10;" writeDate="Wed Feb 01 20:04:46 CET 2023"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB++++uS" nPages="7" signature="MS2Extra comms342hU"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -853,16 +853,16 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="primePWTable" rows="10" units="ms">
-         65.0 
-         60.6 
-         56.1 
-         51.7 
-         47.2 
-         42.8 
-         38.3 
-         33.9 
-         29.4 
-         25.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
       </constant>
 <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
          200.0 
