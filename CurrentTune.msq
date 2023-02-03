@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &#10;" writeDate="Fri Feb 03 16:50:27 CET 2023"/>
+<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &#10;" writeDate="Fri Feb 03 18:53:19 CET 2023"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB++++uS" nPages="7" signature="MS2Extra comms342hU"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -226,15 +226,15 @@
       </constant>
 <constant cols="1" digits="1" name="tempTable" rows="10" units="°C">
          -9.999 
-         -6.1105 
-         -2.222 
-         1.6665 
-         5.555 
-         9.4435 
-         13.332 
-         17.2205 
+         -5.555 
+         -1.111 
+         3.333 
+         7.777 
+         12.221 
+         16.665 
          21.109 
-         24.9975 
+         25.553 
+         29.997 
       </constant>
 <constant cols="1" digits="1" name="taeRates" rows="4" units="%/s">
          200.0 
@@ -447,8 +447,8 @@
 <constant cols="1" digits="0" name="psInitValue" rows="7">
          0.0 
          0.0 
-         1.0 
-         1.0 
+         0.0 
+         0.0 
          0.0 
          0.0 
          0.0 
@@ -456,8 +456,8 @@
 <constant cols="1" digits="0" name="psPortValue" rows="7">
          1.0 
          1.0 
-         0.0 
-         0.0 
+         1.0 
+         1.0 
          1.0 
          1.0 
          1.0 
@@ -470,11 +470,11 @@
          32.0 0.0 22.0 22.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="7" digits="1" name="psThreshold" rows="2">
+<constant cols="7" digits="0" name="psThreshold" rows="2">
          0.0 0.0 1580.0 1760.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="7" digits="1" name="psHysteresis" rows="2">
+<constant cols="7" digits="0" name="psHysteresis" rows="2">
          0.0 0.0 90.0 90.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
@@ -1527,6 +1527,7 @@
 <constant digits="1" name="testint" units="ms">40.064</constant>
 <constant digits="0" name="testrpm" units="RPM">2995.2076677</constant>
 <constant digits="3" name="testpw" units="ms">10.400256</constant>
+<constant digits="0" name="testinjcnt">1000.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
